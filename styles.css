@@ -1,0 +1,74 @@
+body {
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    --bg-color: #f4d03f;
+    display: flex;
+}
+
+@font-face {
+    font-family: 'figtree-extrabold';
+    src: url(/fonts/static/Figtree-ExtraBold.ttf) format("truetype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'figtree-semibold';
+    src: url(/fonts/static/Figtree-SemiBold.ttf) format("truetype");
+    font-weight: 400;
+}
+
+.card-container {
+    margin: 150px auto;
+    border: 1px solid #000;
+    border-radius: 14px;
+    box-shadow: 7px 7px #111;
+    background-color: #fff;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card__img-container img {
+    border-radius: 14px;
+}
+
+.card__data-container-learning p {
+    background-color: var(--bg-color);
+    font-weight: bold;
+    font-family: 'figtree-extrabold';
+    padding: 5px 14px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.card__data-container-date {
+    font-family: 'figtree-semibold';
+}
+
+.card__data-container-title {
+    opacity: 0.9;
+    font-family: 'figtree-extrabold';
+}
+
+.card__data-container-paragraph {
+    opacity: 0.6;
+    font-family: 'figtree-semibold';
+}
+
+
+.card__data-container-profile {
+    display: flex;
+    align-items: center;
+}
+
+.card__data-container-profile img {
+    width: 30px;
+}
+
+.card__data-container-profile p {
+    display: inline;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: 'figtree-extrabold';
+}
