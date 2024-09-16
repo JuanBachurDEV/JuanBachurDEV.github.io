@@ -1,0 +1,116 @@
+body {
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    --bg-color: #111;
+    --font-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ----- LINKING FONTS ----- */
+
+@font-face {
+    font-family: 'inter-bold';
+    src: url(/fonts/static/Inter-Bold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'inter-semibold';
+    src: url(/fonts/static/Inter-SemiBold.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'inter-regular';
+    src: url(/fonts/static/Inter-Regular.ttf);
+    font-weight: 200;
+}
+
+/* ----- PROFILE SECTION ------ */
+
+.card {
+    background-color: #3334;
+    width: 350px;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 12px;
+}
+
+.card-profile-picture img {
+    border-radius: 50%;
+    width: 90px;
+}
+
+h1 {
+    font-family: 'inter-bold';
+    margin-bottom: 0px;
+    font-size: 24px;
+}
+
+.card-profile-address {
+    font-family: 'inter-bold';
+    font-size: 0.88rem;
+    margin: 9px 0px 24px 0px;
+    color: #d1ff36;
+}
+
+.card-profile-description {
+    font-family: 'inter-regular';
+    font-weight: 200;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+/* ----- SOCIAL LINKS SECTION ------ */
+
+.card-social-link p {
+    background-color: #3338;
+    padding: 14px;
+    display: inline-block;
+    margin: 14px;
+    width: 75%;
+    border-radius: 6px;
+    font-family: 'inter-bold';
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.card-social-link p:last-child {
+    margin-bottom: 0;
+}
+
+.card-social-link p:hover {
+    background-color: #d1ff36;
+    color: #333;
+    cursor: pointer ;
+}
+
+div a:link {
+    color: #fff;
+}
+
+div a:visited {
+    color: #fff;
+}
+
+/* ----- FOOTER ------ */
+
+.attribution {
+    font-family: 'inter-regular';
+    font-size: 12px;
+    margin: 10px 0px 0px 0px;
+    padding: 0;
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: #d1ff36;
+}
