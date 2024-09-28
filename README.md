@@ -1,4 +1,4 @@
-# Frontend Mentor - Blog preview Card
+# Frontend Mentor - Recipe Page
  This is my design about the fourth exercise!
 
 ## Hello! 👋
